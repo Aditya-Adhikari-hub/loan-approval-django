@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Prediction History - LoanWise{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h2 class="mb-1">Prediction History</h2>
+                <p class="text-muted mb-0">View all your past loan predictions</p>
+            </div>
+            <a href="{% url 'apply' %}" class="btn btn-primary">
+                <i class="fas fa-plus me-1"></i>New Prediction
+            </a>
+        </div>
+        
+        {% if predictions %}
+        <!-- Stats Row -->
+        <div class="row mb-4 g-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="rounded-circle bg-primary bg-opacity-10 p-3 me-3">
+                            <i class="fas fa-file-alt fa-lg text-primary"></i>
+                        </div>
+                        <div>
+                            <h3 class="mb-0">{{ predictions|length }}</h3>
+                            <small class="text-muted">Total Predictions</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 me-3">
+                            <i class="fas fa-check fa-lg text-success"></i>
+                        </div>
+                        <div>
+                            <h3 class="mb-0">{{ approved_count|default:0 }}</h3>
+                            <small class="text-muted">Approved</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="rounded-circle bg-danger bg-opacity-10 p-3 me-3">
+                            <i class="fas fa-times fa-lg text-danger"></i>
+                        </div>
+                        <div>
+                            <h3 class="mb-0">{{ denied_count|default:0 }}</h3>
+                            <small class="text-muted">Denied</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Table -->
+        <div class="card">
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Profile</th>
+                                <th>Income</th>
+                                <th>Credit Score</th>
+                                <th>Result</th>
+                                <th>Confidence</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for pred in predictions %}
+                            <tr>
+                                <td>
+                                    <div class="fw-medium">{{ pred.created_at|date:"M d, Y" }}</div>
+                                    <small class="text-muted">{{ pred.created_at|time:"H:i" }}</small>
+                                </td>
+                                <td>
+                                    <div class="fw-medium">{{ pred.age }} yrs, {{ pred.gender }}</div>
+                                    <small class="text-muted">{{ pred.occupation }}</small>
+                                </td>
+                                <td class="fw-medium">${{ pred.income|floatformat:0 }}</td>
+                                <td>
+                                    <span class="badge {% if pred.credit_score >= 740 %}bg-success{% elif pred.credit_score >= 670 %}bg-info{% elif pred.credit_score >= 580 %}bg-warning{% else %}bg-danger{% endif %}">
+                                        {{ pred.credit_score }}
+                                    </span>
+                                </td>
+                                <td>
+                                    {% if pred.prediction_result == 'APPROVED' %}
+                                        <span class="badge bg-success">
+                                            <i class="fas fa-check me-1"></i>Approved
+                                        </span>
+                                    {% else %}
+                                        <span class="badge bg-danger">
+                                            <i class="fas fa-times me-1"></i>Denied
+                                        </span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="progress flex-grow-1" style="height: 6px; width: 60px;">
+                                            <div class="progress-bar {% if pred.prediction_result == 'APPROVED' %}bg-success{% else %}bg-danger{% endif %}" 
+                                                 style="width: {{ pred.confidence }}%"></div>
+                                        </div>
+                                        <small class="text-muted">{{ pred.confidence|floatformat:0 }}%</small>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="{% url 'prediction_result' pred.id %}" class="btn btn-sm btn-outline-primary">
+                                        View
+                                    </a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        {% else %}
+        <!-- Empty State -->
+        <div class="card">
+            <div class="card-body text-center py-5">
+                <div class="empty-state">
+                    <i class="fas fa-inbox fa-4x text-muted mb-4"></i>
+                    <h4>No predictions yet</h4>
+                    <p class="text-muted mb-4">Make your first loan approval prediction</p>
+                    <a href="{% url 'apply' %}" class="btn btn-primary">
+                        <i class="fas fa-plus me-1"></i>New Prediction
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

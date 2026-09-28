@@ -1,0 +1,1001 @@
+age,gender,occupation,education_level,marital_status,income,credit_score,loan_status
+50,Female,Accountant,Bachelor's,Married,83255,669,Denied
+36,Male,Teacher,Associate's,Single,81331,721,Approved
+29,Male,Architect,Master's,Married,103052,724,Denied
+42,Male,Teacher,Master's,Married,107014,734,Approved
+40,Male,Accountant,High School,Married,58193,694,Denied
+44,Female,Lawyer,Associate's,Married,81310,752,Approved
+32,Female,Doctor,High School,Married,32074,729,Denied
+32,Female,IT,Bachelor's,Single,70450,643,Denied
+45,Male,Banker,Bachelor's,Married,57214,749,Denied
+57,Female,Banker,Master's,Single,140646,850,Approved
+45,Male,Sales,Bachelor's,Married,66077,685,Denied
+24,Female,Manager,Bachelor's,Single,80551,714,Denied
+43,Male,Marketing,Bachelor's,Single,81548,718,Approved
+23,Male,Writer,Master's,Married,73324,701,Denied
+45,Female,Consultant,Bachelor's,Single,80083,797,Approved
+51,Female,Architect,Doctoral,Married,139179,850,Approved
+59,Female,Engineer,Bachelor's,Married,131777,850,Approved
+23,Female,Manager,High School,Single,20000,597,Denied
+42,Male,Consultant,Bachelor's,Married,104154,709,Denied
+54,Female,Accountant,Bachelor's,Married,108070,784,Approved
+33,Female,Pharmacist,Bachelor's,Married,53394,727,Denied
+43,Female,IT,High School,Single,45370,621,Approved
+46,Male,Sales,Associate's,Single,101145,728,Denied
+48,Male,Chef,Master's,Single,99817,776,Approved
+49,Female,Chef,Associate's,Single,63199,678,Denied
+37,Male,Teacher,Master's,Single,114559,745,Approved
+36,Female,Nurse,Associate's,Married,66078,686,Denied
+24,Male,Nurse,Bachelor's,Married,43931,597,Denied
+58,Male,Lawyer,Bachelor's,Married,112249,766,Approved
+28,Male,Marketing,Bachelor's,Married,48613,693,Denied
+42,Male,Analyst,Bachelor's,Single,101512,712,Denied
+30,Female,Architect,Associate's,Single,67920,632,Denied
+39,Female,Chef,High School,Single,63480,678,Denied
+25,Female,Doctor,Bachelor's,Single,64924,714,Approved
+46,Male,Researcher,Bachelor's,Married,117417,787,Denied
+35,Female,Teacher,Doctoral,Married,119495,763,Approved
+30,Female,Doctor,Master's,Single,69271,700,Approved
+47,Female,Lawyer,Master's,Single,119242,729,Approved
+23,Male,Student,Master's,Married,107790,765,Approved
+41,Male,Teacher,Bachelor's,Married,68278,729,Denied
+49,Male,Manager,Associate's,Single,75078,719,Approved
+28,Female,Nurse,Doctoral,Married,115246,805,Approved
+29,Female,Nurse,Bachelor's,Married,64691,645,Denied
+56,Female,Engineer,Bachelor's,Single,91265,816,Approved
+35,Male,Consultant,High School,Single,66327,708,Denied
+38,Male,Sales,Bachelor's,Married,113800,764,Approved
+57,Female,Accountant,Bachelor's,Married,110441,800,Approved
+25,Male,Marketing,Master's,Married,65938,682,Denied
+23,Male,Architect,Bachelor's,Single,33265,683,Denied
+27,Male,Designer,Bachelor's,Single,66369,646,Denied
+25,Male,IT,Doctoral,Married,121058,738,Approved
+50,Female,Manager,High School,Married,79127,785,Approved
+39,Male,Chef,Bachelor's,Single,80463,705,Approved
+47,Male,Pharmacist,High School,Married,58660,744,Denied
+55,Male,IT,Master's,Married,108117,850,Approved
+31,Male,IT,Doctoral,Married,126021,769,Approved
+57,Female,Sales,Associate's,Married,106206,822,Approved
+35,Female,Analyst,Master's,Married,71314,663,Approved
+52,Male,Engineer,Associate's,Married,108847,821,Approved
+36,Male,Nurse,Doctoral,Married,129611,806,Approved
+29,Male,Researcher,Master's,Single,106493,772,Approved
+35,Male,Consultant,Master's,Married,74368,688,Approved
+44,Male,Designer,High School,Single,42512,613,Denied
+42,Male,Sales,Doctoral,Married,127765,824,Approved
+37,Female,Engineer,Master's,Single,105041,680,Denied
+39,Male,Researcher,Bachelor's,Single,107445,756,Approved
+45,Female,Designer,Master's,Single,120091,835,Approved
+47,Female,Nurse,Associate's,Single,73859,738,Approved
+46,Male,Architect,Master's,Married,95604,840,Approved
+50,Female,Nurse,High School,Married,90450,801,Denied
+36,Female,Sales,Master's,Married,81529,700,Denied
+22,Female,Nurse,Bachelor's,Single,79427,703,Approved
+46,Female,Student,High School,Single,61734,709,Approved
+28,Female,Student,Associate's,Single,72858,637,Denied
+30,Female,Sales,High School,Single,52183,635,Denied
+45,Male,Architect,Bachelor's,Married,87445,726,Approved
+22,Female,Architect,Bachelor's,Single,47209,572,Denied
+29,Female,Lawyer,Bachelor's,Single,60386,685,Denied
+45,Female,Sales,Associate's,Single,80924,728,Approved
+32,Male,Researcher,Associate's,Single,56157,615,Denied
+38,Female,Writer,Master's,Married,90092,758,Denied
+29,Male,Chef,High School,Married,38015,679,Denied
+56,Female,Teacher,Doctoral,Single,152178,850,Approved
+56,Male,Analyst,Master's,Single,94068,762,Approved
+54,Male,Nurse,Bachelor's,Single,109872,819,Approved
+26,Female,Researcher,Bachelor's,Single,46304,685,Denied
+49,Female,Engineer,Master's,Single,98200,783,Approved
+28,Male,Manager,Associate's,Married,23689,594,Denied
+30,Female,Lawyer,High School,Married,20000,636,Denied
+29,Male,Nurse,Associate's,Married,30168,686,Denied
+33,Male,Nurse,Master's,Married,80864,696,Denied
+55,Male,Engineer,High School,Married,108798,850,Approved
+54,Male,Student,Bachelor's,Married,95111,752,Approved
+44,Male,Banker,Doctoral,Married,135666,820,Approved
+45,Female,Chef,Master's,Married,115507,763,Approved
+58,Male,Sales,Bachelor's,Single,110965,812,Approved
+56,Male,IT,High School,Married,79838,684,Denied
+43,Female,Researcher,Master's,Married,88570,725,Approved
+48,Male,Writer,Bachelor's,Married,115763,751,Approved
+56,Female,Designer,High School,Married,108107,801,Approved
+22,Female,Teacher,High School,Married,20000,652,Denied
+56,Female,Writer,Doctoral,Single,135639,850,Denied
+58,Male,Doctor,Bachelor's,Married,104802,699,Denied
+35,Male,Architect,Master's,Single,80031,804,Approved
+24,Male,Designer,Master's,Single,85589,726,Approved
+22,Female,Writer,Bachelor's,Single,44075,618,Denied
+26,Male,Sales,Bachelor's,Married,93475,735,Approved
+47,Female,Lawyer,Bachelor's,Single,110358,793,Approved
+35,Male,Researcher,Bachelor's,Single,77688,692,Denied
+48,Female,Marketing,Bachelor's,Married,109404,794,Approved
+30,Male,Researcher,Master's,Single,103588,726,Approved
+36,Male,Pharmacist,Bachelor's,Married,67540,689,Denied
+36,Male,Writer,Master's,Married,83756,702,Denied
+47,Female,IT,Bachelor's,Single,93672,703,Denied
+34,Female,Consultant,Bachelor's,Married,85924,735,Approved
+53,Male,Writer,Bachelor's,Single,103585,808,Approved
+53,Male,Engineer,Bachelor's,Married,77845,766,Denied
+25,Female,Consultant,Master's,Married,67457,721,Approved
+51,Female,Lawyer,Associate's,Married,82390,763,Approved
+58,Female,Nurse,Bachelor's,Married,107865,777,Approved
+44,Male,Architect,High School,Single,92588,788,Approved
+36,Female,Architect,Bachelor's,Single,55210,632,Denied
+50,Male,Teacher,Bachelor's,Married,104583,745,Approved
+57,Female,Engineer,Bachelor's,Married,129836,791,Approved
+34,Male,Designer,Doctoral,Married,152071,850,Approved
+53,Female,IT,Bachelor's,Married,95434,810,Approved
+28,Female,Writer,Master's,Married,91371,748,Approved
+43,Female,Writer,Bachelor's,Married,95046,799,Approved
+49,Female,Student,Bachelor's,Single,98432,735,Approved
+23,Female,Consultant,High School,Married,30017,643,Denied
+27,Male,Architect,Associate's,Married,54039,666,Denied
+49,Female,Consultant,Bachelor's,Single,57516,743,Approved
+49,Female,Student,Bachelor's,Married,105731,777,Approved
+41,Female,Sales,High School,Married,60392,686,Denied
+51,Male,Consultant,High School,Married,70162,753,Approved
+32,Female,Chef,Associate's,Single,85702,761,Approved
+49,Male,Accountant,Doctoral,Single,130375,792,Approved
+46,Female,Engineer,Bachelor's,Married,84953,743,Approved
+54,Female,Engineer,Bachelor's,Married,132873,787,Approved
+22,Male,Banker,Associate's,Single,27519,524,Denied
+48,Female,Pharmacist,Bachelor's,Single,85748,758,Approved
+34,Male,Chef,Associate's,Married,55794,709,Approved
+24,Male,Pharmacist,Associate's,Single,55611,679,Denied
+27,Female,Nurse,Bachelor's,Married,65617,610,Denied
+29,Male,Analyst,High School,Married,21110,611,Denied
+48,Female,Teacher,High School,Single,61017,624,Denied
+30,Female,Writer,Associate's,Married,42889,714,Approved
+58,Male,Lawyer,High School,Single,82841,717,Denied
+54,Male,Analyst,High School,Single,84387,807,Denied
+45,Male,Engineer,Bachelor's,Married,95773,798,Approved
+36,Male,Analyst,Master's,Married,69359,672,Approved
+53,Female,Pharmacist,Bachelor's,Married,117459,760,Approved
+53,Female,Marketing,Bachelor's,Married,105288,801,Approved
+45,Male,Analyst,Associate's,Single,95267,726,Approved
+33,Female,Marketing,Doctoral,Single,123162,788,Approved
+23,Female,Analyst,Bachelor's,Single,73019,674,Denied
+24,Female,Designer,High School,Single,39998,574,Denied
+58,Female,Accountant,Bachelor's,Single,129193,741,Denied
+38,Male,Teacher,High School,Single,61833,708,Denied
+23,Male,Lawyer,Bachelor's,Married,55031,644,Approved
+23,Female,Chef,Bachelor's,Married,90586,698,Denied
+49,Male,Accountant,Master's,Married,128835,844,Approved
+44,Male,Lawyer,Bachelor's,Married,96606,807,Approved
+58,Male,Banker,Master's,Single,109855,790,Approved
+53,Female,Lawyer,Doctoral,Single,127175,806,Approved
+54,Female,Teacher,High School,Married,82390,774,Approved
+22,Female,Writer,Associate's,Married,42182,591,Denied
+40,Male,Marketing,Bachelor's,Single,72788,728,Denied
+23,Female,Analyst,Bachelor's,Married,58614,694,Denied
+47,Female,Banker,Bachelor's,Married,116329,822,Approved
+53,Male,Marketing,Doctoral,Married,156931,787,Approved
+27,Female,Designer,Master's,Single,65384,658,Denied
+53,Female,Engineer,Bachelor's,Married,99827,744,Approved
+25,Male,Doctor,Bachelor's,Married,47425,662,Denied
+32,Male,Architect,Master's,Married,84184,743,Approved
+38,Male,Engineer,Doctoral,Married,117795,843,Approved
+59,Female,Sales,Master's,Married,123335,803,Approved
+45,Female,Doctor,High School,Married,45672,666,Denied
+26,Female,Architect,Bachelor's,Single,59085,723,Approved
+55,Male,Banker,High School,Married,71090,750,Approved
+27,Male,Engineer,Associate's,Married,20000,671,Denied
+43,Female,Student,High School,Married,92294,764,Approved
+32,Female,Student,Bachelor's,Single,86331,681,Denied
+37,Male,Manager,Bachelor's,Single,71855,659,Denied
+54,Male,Sales,High School,Married,78282,686,Approved
+30,Male,Lawyer,Bachelor's,Married,49425,695,Denied
+27,Male,Designer,Bachelor's,Married,87935,769,Approved
+37,Female,Manager,Bachelor's,Married,105959,838,Approved
+50,Male,Consultant,High School,Married,74350,770,Approved
+24,Female,Chef,Bachelor's,Married,73352,742,Denied
+41,Female,Chef,Master's,Married,106129,747,Approved
+57,Female,IT,High School,Married,62449,682,Denied
+40,Male,Teacher,High School,Married,50822,720,Denied
+47,Male,Chef,Bachelor's,Single,94478,778,Approved
+24,Male,Analyst,Doctoral,Married,96181,734,Approved
+40,Male,Manager,Bachelor's,Married,78720,743,Approved
+41,Female,Consultant,Bachelor's,Single,82129,747,Approved
+53,Male,Pharmacist,Bachelor's,Single,100286,831,Denied
+28,Male,Teacher,Bachelor's,Single,64783,740,Denied
+54,Female,Lawyer,High School,Single,62090,745,Denied
+39,Male,Sales,Bachelor's,Single,69744,746,Denied
+22,Female,Nurse,Doctoral,Married,80731,724,Approved
+32,Female,Teacher,Bachelor's,Married,84667,706,Denied
+49,Female,Pharmacist,Master's,Married,83915,779,Approved
+46,Female,Nurse,Master's,Single,128303,755,Denied
+44,Female,Architect,High School,Single,83795,783,Approved
+52,Female,Sales,Doctoral,Married,140467,790,Approved
+51,Female,Accountant,High School,Single,34452,689,Denied
+56,Female,Architect,Bachelor's,Married,100580,751,Denied
+28,Male,Designer,High School,Married,38037,671,Denied
+37,Male,Pharmacist,High School,Married,37341,660,Denied
+47,Male,Lawyer,Bachelor's,Single,84771,683,Denied
+23,Male,Chef,Associate's,Married,64452,698,Denied
+22,Female,Writer,Bachelor's,Single,64973,657,Denied
+33,Male,Sales,Bachelor's,Married,57631,721,Approved
+26,Female,Designer,High School,Married,20000,619,Denied
+58,Male,Marketing,High School,Single,79094,771,Approved
+53,Male,Designer,Bachelor's,Single,98298,738,Approved
+30,Male,Pharmacist,Bachelor's,Single,74442,683,Approved
+56,Female,Architect,Master's,Married,117970,792,Approved
+40,Male,Architect,Bachelor's,Single,89672,778,Denied
+37,Female,Accountant,Master's,Married,126527,850,Approved
+24,Female,Designer,Bachelor's,Single,70232,659,Approved
+41,Male,Banker,Bachelor's,Married,82778,778,Approved
+45,Male,Architect,Bachelor's,Married,86752,660,Approved
+54,Male,Accountant,Associate's,Married,82649,707,Denied
+45,Female,Marketing,Bachelor's,Married,107209,739,Approved
+32,Male,Banker,Master's,Single,80590,664,Approved
+29,Female,Teacher,Bachelor's,Single,66178,629,Denied
+57,Female,Chef,Master's,Married,128267,844,Approved
+59,Male,Accountant,Master's,Single,122973,814,Approved
+41,Male,Pharmacist,Master's,Married,82913,751,Approved
+56,Female,Researcher,Doctoral,Single,155844,850,Approved
+46,Female,Chef,Bachelor's,Single,90084,764,Approved
+56,Female,Architect,Bachelor's,Single,113503,830,Approved
+46,Male,Manager,Bachelor's,Married,82995,740,Denied
+50,Female,Consultant,Bachelor's,Single,115312,750,Approved
+39,Male,Pharmacist,Bachelor's,Married,67348,751,Approved
+39,Female,IT,Master's,Single,126180,774,Approved
+23,Female,Accountant,Bachelor's,Married,30285,592,Denied
+56,Male,Writer,Bachelor's,Single,112521,795,Denied
+37,Female,Teacher,Associate's,Married,69631,673,Denied
+57,Male,Student,Bachelor's,Married,95566,762,Approved
+54,Male,Marketing,High School,Single,84365,771,Approved
+25,Female,Accountant,Master's,Married,98692,749,Approved
+54,Male,Designer,Bachelor's,Married,69747,699,Denied
+35,Male,Doctor,Associate's,Married,67041,683,Denied
+42,Female,Sales,High School,Married,22600,689,Denied
+41,Male,IT,Bachelor's,Single,69015,734,Approved
+29,Male,Doctor,Bachelor's,Married,89937,811,Approved
+28,Male,Marketing,Bachelor's,Single,55273,722,Approved
+24,Female,Doctor,High School,Single,20000,661,Denied
+38,Male,Student,Bachelor's,Married,76030,665,Approved
+54,Female,IT,Bachelor's,Single,134018,850,Approved
+33,Female,IT,Bachelor's,Married,44024,663,Denied
+43,Male,Accountant,Bachelor's,Married,70730,698,Approved
+43,Male,Researcher,Bachelor's,Married,108961,784,Approved
+51,Male,Accountant,Associate's,Married,111365,831,Approved
+59,Female,Doctor,Doctoral,Single,153948,850,Approved
+59,Male,Engineer,Bachelor's,Single,91914,741,Approved
+29,Male,Sales,Bachelor's,Married,96937,768,Approved
+48,Male,Marketing,High School,Single,92916,735,Approved
+48,Male,IT,Bachelor's,Single,104184,786,Approved
+55,Male,Architect,High School,Single,67313,721,Approved
+42,Female,Marketing,Bachelor's,Married,84264,730,Approved
+51,Female,Analyst,Doctoral,Married,141094,850,Approved
+54,Male,Analyst,Bachelor's,Single,107962,751,Denied
+49,Male,Architect,High School,Married,92265,839,Approved
+54,Male,IT,High School,Single,91191,694,Approved
+26,Male,IT,Bachelor's,Single,44839,632,Denied
+40,Female,Consultant,Associate's,Married,87647,756,Approved
+25,Male,Pharmacist,High School,Married,39196,669,Denied
+56,Female,Student,Master's,Married,136305,834,Approved
+38,Female,Nurse,Bachelor's,Single,100998,756,Denied
+49,Male,Accountant,Associate's,Married,63826,735,Denied
+51,Female,Writer,Doctoral,Married,142962,831,Approved
+50,Female,Banker,High School,Married,64028,776,Approved
+27,Female,Accountant,Doctoral,Married,83982,750,Approved
+56,Female,Doctor,Bachelor's,Married,111200,835,Approved
+58,Male,IT,Master's,Married,166673,848,Denied
+45,Male,Writer,Bachelor's,Married,61898,707,Approved
+50,Female,Banker,Master's,Married,116515,787,Approved
+52,Male,Accountant,Doctoral,Married,154608,819,Approved
+56,Male,IT,Associate's,Married,92846,787,Approved
+54,Male,Engineer,Doctoral,Married,146303,828,Approved
+42,Male,Writer,Bachelor's,Single,65511,737,Denied
+53,Male,Nurse,Bachelor's,Single,104991,744,Approved
+44,Female,Architect,Bachelor's,Married,76648,799,Approved
+54,Male,Student,Bachelor's,Married,70151,700,Denied
+24,Male,Manager,Associate's,Married,60918,686,Approved
+39,Male,Sales,Bachelor's,Single,94875,782,Approved
+46,Male,Teacher,Bachelor's,Married,91774,733,Approved
+52,Female,Engineer,Master's,Single,123436,847,Denied
+24,Female,Student,Master's,Married,94114,678,Denied
+45,Female,Pharmacist,Bachelor's,Married,92865,814,Approved
+53,Female,Nurse,Bachelor's,Married,115060,802,Approved
+43,Male,Architect,Associate's,Married,67037,691,Denied
+44,Female,Manager,Associate's,Married,92679,743,Denied
+23,Male,Doctor,High School,Married,36311,671,Denied
+48,Male,Designer,Bachelor's,Single,96910,743,Approved
+23,Male,IT,Associate's,Married,22449,588,Denied
+47,Male,Analyst,Doctoral,Married,141804,824,Approved
+38,Male,Chef,Bachelor's,Married,66520,659,Approved
+54,Female,Marketing,Bachelor's,Single,93425,843,Denied
+30,Female,Teacher,Bachelor's,Married,54769,654,Approved
+50,Female,Manager,High School,Single,56006,742,Approved
+47,Female,Doctor,Bachelor's,Married,124371,815,Approved
+56,Male,Writer,Bachelor's,Married,125970,783,Approved
+46,Female,Manager,Bachelor's,Married,119805,798,Denied
+45,Male,IT,Bachelor's,Married,71156,755,Approved
+34,Female,Doctor,Doctoral,Single,119068,772,Approved
+28,Male,Analyst,Master's,Single,64597,736,Denied
+57,Male,Student,Bachelor's,Married,97064,821,Approved
+41,Female,Designer,Bachelor's,Married,69728,752,Approved
+22,Male,Doctor,Bachelor's,Single,73593,675,Approved
+29,Male,Chef,Associate's,Married,44556,617,Approved
+37,Female,Banker,Bachelor's,Married,93525,721,Approved
+35,Male,Accountant,High School,Married,58561,698,Denied
+33,Female,Lawyer,Bachelor's,Married,106054,780,Approved
+44,Female,IT,Bachelor's,Single,65808,627,Approved
+36,Female,Doctor,Associate's,Single,79888,723,Approved
+49,Male,Marketing,Doctoral,Married,157696,850,Approved
+55,Male,Chef,Doctoral,Married,134899,823,Approved
+23,Male,Accountant,Master's,Married,91607,773,Approved
+53,Female,Consultant,Bachelor's,Married,106542,806,Approved
+44,Male,Nurse,Master's,Married,104587,825,Approved
+43,Female,Engineer,High School,Married,49140,679,Denied
+46,Female,Accountant,Master's,Married,100213,806,Approved
+43,Male,Manager,High School,Married,92247,818,Approved
+43,Female,Analyst,Master's,Married,106510,826,Approved
+27,Male,Consultant,Associate's,Single,59231,635,Denied
+36,Male,Engineer,Master's,Married,84136,720,Approved
+58,Male,Lawyer,Doctoral,Single,142302,836,Approved
+54,Male,Analyst,High School,Married,94229,791,Denied
+29,Male,Doctor,Bachelor's,Married,45256,688,Denied
+26,Female,Accountant,Doctoral,Married,99771,705,Approved
+25,Female,Marketing,Bachelor's,Single,60010,680,Denied
+27,Female,Student,Master's,Single,84170,635,Denied
+53,Male,Teacher,Bachelor's,Single,98813,835,Approved
+51,Male,Nurse,Bachelor's,Married,104437,762,Approved
+56,Male,Sales,Associate's,Single,101392,788,Approved
+37,Female,Consultant,Associate's,Married,73519,703,Approved
+34,Male,Lawyer,Master's,Married,78212,764,Approved
+51,Female,Consultant,Bachelor's,Married,94237,654,Denied
+40,Female,Writer,Bachelor's,Married,99921,759,Approved
+38,Male,Manager,Bachelor's,Single,92419,741,Approved
+40,Male,Sales,Bachelor's,Married,61407,683,Denied
+49,Female,Manager,Master's,Married,120772,850,Approved
+47,Male,Lawyer,Doctoral,Single,107826,746,Denied
+58,Female,Teacher,Bachelor's,Married,109704,832,Approved
+47,Male,Sales,Master's,Single,140966,846,Denied
+44,Male,Teacher,Master's,Married,93781,807,Approved
+30,Female,Lawyer,Bachelor's,Married,54485,650,Denied
+33,Male,Student,Doctoral,Single,127960,762,Approved
+22,Female,Manager,Associate's,Married,20000,656,Denied
+22,Male,Teacher,High School,Married,20508,630,Denied
+55,Female,Researcher,Master's,Married,133446,770,Approved
+53,Female,Consultant,Bachelor's,Married,91985,745,Denied
+46,Male,Sales,Master's,Married,107460,795,Approved
+22,Female,Accountant,Master's,Single,86162,745,Denied
+37,Male,Nurse,High School,Single,58823,666,Denied
+26,Male,Marketing,Master's,Single,85002,599,Denied
+43,Male,Architect,Bachelor's,Married,81413,757,Approved
+50,Female,Pharmacist,Bachelor's,Married,102550,730,Denied
+24,Female,IT,Bachelor's,Married,56144,589,Denied
+33,Male,Pharmacist,Doctoral,Married,123367,671,Approved
+47,Male,Sales,High School,Single,60046,743,Denied
+37,Female,Student,Bachelor's,Single,74761,722,Denied
+58,Male,Pharmacist,Bachelor's,Single,94150,769,Approved
+43,Male,Sales,Master's,Single,105974,829,Approved
+50,Female,Consultant,Bachelor's,Single,84834,777,Approved
+35,Male,Researcher,High School,Married,32789,716,Denied
+49,Female,Manager,Associate's,Single,84379,694,Approved
+26,Male,Pharmacist,Bachelor's,Single,64191,683,Denied
+51,Female,Marketing,Master's,Single,130243,757,Approved
+26,Male,Banker,Associate's,Single,39533,639,Denied
+33,Male,Consultant,Associate's,Married,62620,683,Denied
+37,Female,Nurse,Doctoral,Married,130761,826,Approved
+47,Male,Researcher,High School,Married,74171,733,Approved
+47,Female,Consultant,Doctoral,Married,125115,833,Approved
+42,Male,Sales,Bachelor's,Single,87240,771,Approved
+57,Female,Engineer,Master's,Married,132962,850,Approved
+54,Female,Researcher,Associate's,Single,88107,750,Denied
+51,Female,Lawyer,High School,Single,42202,652,Denied
+58,Female,Writer,Master's,Single,131407,843,Approved
+44,Male,Consultant,Master's,Single,141187,795,Approved
+31,Male,Doctor,Master's,Single,83099,780,Approved
+26,Female,Engineer,High School,Single,25078,615,Denied
+57,Female,Pharmacist,Master's,Married,133100,812,Approved
+55,Female,Sales,Master's,Single,129185,807,Approved
+52,Male,Lawyer,Bachelor's,Single,117891,833,Approved
+31,Male,Researcher,Master's,Married,69631,694,Denied
+40,Male,Teacher,Master's,Single,112970,753,Approved
+53,Male,Chef,Bachelor's,Single,110356,850,Denied
+22,Female,Accountant,High School,Married,27867,590,Denied
+26,Female,Engineer,Bachelor's,Single,66080,689,Denied
+25,Female,Writer,High School,Single,49941,688,Approved
+37,Male,Marketing,Bachelor's,Married,90584,676,Approved
+45,Male,Teacher,Bachelor's,Single,72354,745,Approved
+37,Male,Analyst,High School,Married,64802,660,Denied
+23,Female,Teacher,Bachelor's,Married,55529,700,Approved
+49,Female,Analyst,High School,Single,71593,692,Denied
+53,Male,Engineer,Master's,Married,122597,841,Approved
+48,Female,Designer,Doctoral,Married,136746,850,Denied
+41,Male,Manager,High School,Single,76375,760,Approved
+45,Male,Researcher,Doctoral,Married,133244,827,Approved
+33,Female,Accountant,Bachelor's,Single,54706,672,Approved
+56,Male,Writer,Associate's,Married,85097,738,Denied
+54,Female,Lawyer,High School,Single,80680,810,Approved
+54,Male,Manager,Bachelor's,Married,121438,785,Approved
+58,Female,Designer,Master's,Single,138046,802,Approved
+33,Female,Architect,Master's,Married,78741,744,Approved
+24,Female,Nurse,High School,Single,70277,659,Denied
+22,Male,Researcher,High School,Married,33971,595,Denied
+54,Male,IT,Bachelor's,Married,122130,756,Approved
+31,Female,Sales,Associate's,Married,51224,654,Denied
+50,Female,Architect,Associate's,Married,90000,756,Approved
+34,Male,Student,Associate's,Married,70592,716,Approved
+33,Male,IT,Master's,Married,109772,802,Approved
+52,Male,Lawyer,Doctoral,Married,160860,850,Approved
+23,Female,Writer,Bachelor's,Single,69582,681,Denied
+56,Male,Marketing,Doctoral,Married,146273,845,Approved
+44,Male,Manager,Bachelor's,Married,79423,755,Approved
+38,Female,IT,Bachelor's,Married,83989,783,Approved
+47,Male,Chef,Associate's,Married,91496,762,Approved
+29,Male,Lawyer,Bachelor's,Single,62159,667,Denied
+50,Male,Manager,Doctoral,Single,157977,822,Approved
+47,Female,Pharmacist,Bachelor's,Married,114289,734,Approved
+31,Female,Doctor,Bachelor's,Married,54755,705,Approved
+47,Female,Researcher,Bachelor's,Married,79946,763,Approved
+55,Female,Chef,High School,Married,77394,771,Approved
+28,Female,Analyst,Master's,Married,88614,719,Approved
+25,Female,Architect,Bachelor's,Single,51631,721,Approved
+32,Female,Manager,Bachelor's,Married,90283,714,Approved
+50,Male,Teacher,Bachelor's,Married,103361,818,Approved
+57,Male,Teacher,Bachelor's,Single,108091,796,Approved
+46,Female,Manager,High School,Married,44461,661,Denied
+42,Male,Writer,Bachelor's,Married,65262,734,Approved
+57,Male,Chef,Associate's,Single,96715,796,Approved
+31,Female,Researcher,Master's,Single,56511,695,Denied
+58,Male,Writer,Master's,Married,144189,850,Approved
+30,Male,IT,Master's,Single,84627,720,Approved
+45,Male,Teacher,Bachelor's,Married,138146,850,Approved
+56,Male,Engineer,Bachelor's,Married,140618,850,Approved
+56,Male,Accountant,High School,Married,78278,780,Approved
+57,Female,Chef,Master's,Married,125904,828,Approved
+39,Female,Engineer,Associate's,Single,80433,769,Denied
+53,Female,Chef,Bachelor's,Married,127047,840,Approved
+45,Male,Pharmacist,Associate's,Single,49929,693,Approved
+44,Female,Chef,High School,Married,36204,658,Denied
+53,Male,Researcher,Bachelor's,Single,92169,764,Approved
+58,Male,Manager,High School,Married,92741,649,Approved
+33,Male,Manager,Master's,Single,98953,756,Approved
+34,Male,Analyst,Bachelor's,Single,89046,715,Denied
+44,Female,Lawyer,High School,Single,45004,747,Approved
+46,Female,Marketing,Bachelor's,Single,56257,704,Denied
+56,Male,Teacher,High School,Married,93870,727,Approved
+51,Female,Consultant,Associate's,Single,71077,731,Denied
+38,Male,Teacher,Master's,Married,68722,668,Denied
+41,Female,Accountant,High School,Married,60675,721,Denied
+46,Female,Architect,Master's,Married,122897,814,Approved
+43,Male,Accountant,High School,Single,59669,742,Denied
+34,Female,Marketing,Associate's,Single,51132,646,Denied
+40,Male,Sales,Master's,Married,99609,760,Approved
+57,Female,Marketing,Bachelor's,Single,101941,733,Denied
+33,Male,Chef,High School,Single,26279,666,Denied
+40,Male,Researcher,Bachelor's,Married,71279,737,Approved
+33,Female,Writer,Associate's,Married,64319,715,Approved
+30,Female,Lawyer,Master's,Married,91825,732,Approved
+28,Male,Designer,Bachelor's,Single,66520,708,Denied
+49,Female,Teacher,Master's,Married,100572,838,Approved
+35,Female,Banker,Master's,Single,91777,728,Approved
+52,Male,Banker,Bachelor's,Single,67344,734,Approved
+40,Male,Nurse,Doctoral,Married,129677,761,Approved
+37,Female,Banker,Bachelor's,Single,98932,719,Approved
+26,Male,Teacher,Doctoral,Single,83888,718,Approved
+56,Male,IT,High School,Single,72211,786,Approved
+33,Male,Teacher,Bachelor's,Married,76436,703,Approved
+46,Female,Designer,Bachelor's,Married,109792,774,Approved
+42,Female,Writer,Bachelor's,Married,78276,714,Denied
+57,Male,Architect,Bachelor's,Married,97116,759,Approved
+44,Female,Analyst,Master's,Single,78466,745,Approved
+37,Male,Banker,High School,Married,54051,626,Denied
+35,Female,Analyst,Associate's,Single,90131,788,Approved
+52,Male,Manager,Master's,Single,124160,787,Denied
+26,Male,Analyst,Bachelor's,Married,60665,708,Approved
+56,Female,Chef,Doctoral,Married,155831,816,Approved
+44,Male,Banker,Master's,Single,107833,804,Approved
+50,Female,Doctor,Doctoral,Single,129804,846,Approved
+32,Female,Pharmacist,Master's,Single,102349,766,Approved
+39,Male,Pharmacist,Associate's,Single,68886,672,Denied
+33,Male,Engineer,High School,Married,46764,679,Approved
+30,Female,Accountant,Master's,Married,72369,656,Approved
+31,Male,Accountant,Bachelor's,Married,88052,718,Approved
+38,Male,Doctor,High School,Married,63970,744,Approved
+59,Male,Consultant,Bachelor's,Single,102206,823,Approved
+28,Male,Student,Doctoral,Married,124027,778,Approved
+34,Male,Nurse,Bachelor's,Married,65536,660,Denied
+30,Female,Doctor,Bachelor's,Married,55269,703,Approved
+48,Female,Researcher,Bachelor's,Married,82604,746,Approved
+23,Male,Researcher,Associate's,Married,20000,521,Denied
+26,Male,Accountant,Bachelor's,Single,68073,722,Denied
+50,Male,Lawyer,Bachelor's,Married,69532,728,Denied
+58,Female,Doctor,High School,Single,65573,783,Approved
+59,Male,Writer,Master's,Single,99366,743,Approved
+40,Female,Nurse,Bachelor's,Single,80708,603,Denied
+29,Female,Researcher,Master's,Single,83245,729,Approved
+22,Female,Manager,Master's,Married,70099,699,Denied
+43,Male,Doctor,Associate's,Married,55861,630,Denied
+38,Female,Chef,Bachelor's,Married,61416,659,Denied
+28,Male,Doctor,Bachelor's,Married,70965,808,Approved
+46,Female,Nurse,Master's,Married,102741,760,Approved
+25,Male,Nurse,Associate's,Single,49245,690,Denied
+57,Female,Teacher,Bachelor's,Single,94221,750,Approved
+27,Male,Lawyer,Bachelor's,Married,65215,604,Denied
+52,Female,Architect,Associate's,Married,104549,778,Approved
+40,Male,IT,High School,Married,65792,698,Denied
+48,Male,Doctor,Bachelor's,Single,87813,737,Approved
+31,Male,Nurse,Master's,Single,92357,730,Approved
+47,Male,Engineer,Bachelor's,Married,88890,764,Approved
+40,Female,Marketing,Bachelor's,Single,82118,727,Approved
+24,Female,Writer,Bachelor's,Single,53115,615,Approved
+34,Male,Marketing,Master's,Married,90534,756,Approved
+49,Female,Writer,Associate's,Single,83681,671,Approved
+41,Male,Nurse,Master's,Married,88599,662,Approved
+49,Male,Marketing,Associate's,Single,65261,750,Approved
+29,Female,Accountant,Bachelor's,Single,44671,680,Approved
+22,Male,Student,High School,Single,20000,610,Denied
+24,Male,Manager,High School,Married,20000,560,Denied
+34,Female,Student,Bachelor's,Single,75391,685,Denied
+49,Male,Designer,Associate's,Married,67108,713,Denied
+46,Male,Researcher,Master's,Single,118704,733,Approved
+54,Male,Accountant,High School,Married,78520,719,Approved
+59,Male,Teacher,Bachelor's,Single,80972,786,Approved
+27,Female,Researcher,Bachelor's,Married,72324,756,Approved
+53,Female,Pharmacist,High School,Married,88661,745,Approved
+42,Female,Writer,High School,Married,45092,710,Approved
+37,Male,Consultant,Bachelor's,Single,83802,654,Denied
+42,Male,Manager,Bachelor's,Single,72152,747,Approved
+32,Female,Analyst,Bachelor's,Single,71465,673,Denied
+58,Male,Researcher,Bachelor's,Married,90032,784,Approved
+57,Male,Lawyer,Bachelor's,Married,80603,746,Approved
+56,Male,IT,High School,Married,75257,799,Approved
+40,Male,IT,Bachelor's,Single,80144,695,Approved
+41,Female,Marketing,Doctoral,Single,122534,820,Approved
+39,Female,Student,Bachelor's,Single,62739,691,Approved
+35,Female,Analyst,Bachelor's,Married,68501,698,Denied
+36,Male,Student,Bachelor's,Married,80039,716,Approved
+52,Female,Analyst,Master's,Married,119326,773,Approved
+22,Female,Analyst,Master's,Single,77737,699,Approved
+24,Male,Engineer,Bachelor's,Married,47948,655,Approved
+37,Male,Teacher,Doctoral,Married,140075,825,Approved
+44,Female,Pharmacist,High School,Single,45357,687,Denied
+32,Female,Engineer,High School,Married,52313,708,Approved
+33,Female,IT,Master's,Married,109228,800,Approved
+31,Female,Writer,Master's,Married,95713,698,Denied
+53,Male,Consultant,High School,Married,73462,774,Denied
+37,Female,Designer,Associate's,Single,54575,639,Approved
+29,Female,Teacher,High School,Single,56041,701,Denied
+59,Male,Consultant,Associate's,Married,74155,774,Approved
+33,Female,Consultant,Master's,Single,76948,638,Approved
+45,Male,Student,Bachelor's,Married,83536,746,Approved
+49,Male,Architect,Bachelor's,Married,114064,775,Approved
+29,Male,Student,Bachelor's,Married,71196,669,Approved
+49,Female,Marketing,High School,Married,55979,761,Approved
+57,Female,Banker,Associate's,Single,87845,741,Approved
+47,Male,Nurse,Bachelor's,Single,83285,713,Denied
+29,Female,Sales,Doctoral,Single,99853,746,Approved
+49,Female,Engineer,Master's,Married,130183,846,Denied
+49,Male,Nurse,High School,Single,49923,692,Denied
+58,Male,Consultant,Master's,Single,153131,850,Approved
+57,Female,Marketing,Master's,Married,139923,850,Approved
+48,Male,Consultant,Master's,Married,130362,730,Approved
+38,Female,Designer,Bachelor's,Single,72055,693,Denied
+30,Female,Engineer,Bachelor's,Single,64750,669,Denied
+54,Female,Marketing,Bachelor's,Married,81502,772,Approved
+41,Female,Banker,High School,Single,50630,582,Denied
+34,Male,Manager,Associate's,Single,65404,801,Approved
+49,Male,Student,Associate's,Single,99940,794,Approved
+50,Male,Nurse,Bachelor's,Married,80392,751,Approved
+34,Male,Researcher,Master's,Single,87517,779,Approved
+56,Female,Consultant,Bachelor's,Married,103730,850,Approved
+27,Female,Chef,High School,Married,20000,655,Denied
+39,Male,Accountant,Doctoral,Married,134370,848,Approved
+26,Female,Designer,Doctoral,Single,95140,736,Denied
+46,Female,Researcher,Master's,Married,108069,775,Approved
+23,Female,Architect,Doctoral,Married,94720,707,Denied
+31,Male,Banker,Bachelor's,Married,56659,648,Denied
+51,Male,Doctor,Doctoral,Married,143394,814,Approved
+26,Male,Banker,High School,Married,32765,584,Denied
+54,Female,Banker,Bachelor's,Married,97422,774,Approved
+22,Male,Designer,Associate's,Married,29073,559,Denied
+39,Male,Nurse,Associate's,Married,70292,721,Denied
+53,Male,Nurse,High School,Single,101304,780,Approved
+32,Male,Consultant,Bachelor's,Single,72098,712,Approved
+42,Male,IT,Master's,Single,119941,772,Approved
+47,Male,Lawyer,Bachelor's,Married,71646,850,Approved
+46,Female,Architect,High School,Married,68366,775,Approved
+43,Female,Pharmacist,Master's,Married,90039,699,Approved
+48,Male,Student,Bachelor's,Married,71846,739,Denied
+34,Male,Consultant,Bachelor's,Married,61909,669,Denied
+54,Female,Consultant,Bachelor's,Married,120878,771,Approved
+55,Female,Analyst,Associate's,Single,103750,734,Denied
+56,Male,Teacher,Bachelor's,Married,109645,815,Approved
+22,Male,Architect,Doctoral,Single,77009,671,Denied
+42,Male,Writer,Associate's,Single,67055,752,Approved
+27,Male,Manager,Bachelor's,Single,67025,730,Approved
+49,Female,Student,Master's,Single,118133,850,Approved
+38,Male,Accountant,Master's,Married,71343,679,Denied
+26,Male,Accountant,High School,Married,22645,641,Denied
+52,Male,Chef,High School,Single,74038,764,Denied
+26,Male,Analyst,High School,Married,44044,636,Denied
+59,Female,Analyst,Bachelor's,Married,77558,723,Denied
+24,Female,Writer,Bachelor's,Single,55568,733,Denied
+44,Female,IT,High School,Married,65145,722,Approved
+58,Male,Accountant,Doctoral,Single,166744,850,Approved
+58,Male,Sales,Bachelor's,Married,119392,783,Approved
+31,Female,Consultant,Associate's,Married,62238,641,Denied
+31,Male,Teacher,Bachelor's,Single,56500,658,Denied
+40,Male,Marketing,Bachelor's,Single,53379,685,Denied
+38,Female,Pharmacist,High School,Married,48104,636,Approved
+42,Female,Teacher,Associate's,Married,85024,740,Approved
+35,Female,Designer,Master's,Single,115401,708,Approved
+30,Female,IT,Bachelor's,Married,77658,666,Denied
+22,Male,Architect,Bachelor's,Married,61440,701,Denied
+34,Male,Student,Bachelor's,Married,78694,743,Approved
+25,Female,Consultant,High School,Married,26158,611,Denied
+22,Male,Writer,Associate's,Married,38049,599,Denied
+53,Female,Analyst,Bachelor's,Married,126536,778,Denied
+55,Female,Consultant,Associate's,Married,75361,730,Denied
+49,Male,Chef,High School,Single,94721,791,Denied
+52,Female,Writer,Master's,Single,115169,837,Approved
+29,Male,Researcher,Doctoral,Single,130381,769,Approved
+47,Male,Researcher,Master's,Married,91397,711,Denied
+55,Male,Sales,Master's,Married,133288,843,Approved
+24,Male,Banker,Associate's,Single,31948,600,Approved
+33,Female,Chef,Doctoral,Married,95270,721,Approved
+22,Male,Student,Associate's,Married,43278,700,Denied
+26,Female,Manager,Doctoral,Single,121142,803,Approved
+51,Female,Doctor,Doctoral,Married,130825,829,Approved
+51,Female,Student,Master's,Single,96014,719,Approved
+38,Female,Sales,Doctoral,Single,122622,799,Approved
+44,Male,Analyst,Bachelor's,Married,86688,788,Approved
+36,Male,Architect,Associate's,Married,69224,692,Denied
+58,Female,Writer,Bachelor's,Single,123243,850,Approved
+42,Female,Marketing,Bachelor's,Married,84108,790,Approved
+35,Male,Consultant,High School,Married,77332,785,Approved
+23,Female,Chef,Bachelor's,Single,59863,686,Denied
+32,Male,Consultant,Doctoral,Single,109803,786,Approved
+59,Female,Chef,Associate's,Married,71326,802,Approved
+55,Male,Doctor,Master's,Single,120560,831,Approved
+59,Female,Sales,Doctoral,Married,150454,844,Approved
+55,Female,Designer,Doctoral,Married,163904,850,Approved
+39,Male,Designer,Doctoral,Married,132437,816,Approved
+51,Female,Marketing,Bachelor's,Single,80809,696,Denied
+36,Female,Writer,Doctoral,Married,123583,783,Approved
+48,Male,Teacher,Master's,Married,124072,850,Approved
+55,Female,Architect,Associate's,Single,112420,713,Approved
+59,Male,Researcher,Bachelor's,Single,123812,850,Approved
+54,Male,Writer,Master's,Single,134412,850,Approved
+45,Female,Architect,Associate's,Married,75401,712,Approved
+36,Female,Banker,Bachelor's,Married,81824,748,Denied
+51,Female,Sales,Bachelor's,Single,117242,802,Denied
+38,Female,Marketing,Associate's,Married,44008,722,Approved
+26,Female,Designer,Bachelor's,Single,55758,711,Denied
+50,Female,Nurse,Master's,Married,105411,727,Approved
+25,Female,Engineer,Bachelor's,Single,65187,708,Denied
+31,Male,Manager,High School,Married,61953,681,Approved
+38,Female,Banker,High School,Married,45045,677,Denied
+31,Male,Doctor,Bachelor's,Married,32645,616,Denied
+38,Female,Sales,Doctoral,Single,117816,850,Approved
+41,Female,Architect,Associate's,Single,82202,776,Approved
+45,Male,Nurse,Bachelor's,Married,97564,734,Approved
+26,Female,Architect,Associate's,Single,52422,614,Denied
+55,Female,Consultant,Bachelor's,Single,100300,767,Approved
+27,Male,IT,Master's,Single,63314,702,Denied
+23,Female,Pharmacist,Master's,Married,84229,720,Approved
+34,Female,Consultant,High School,Married,35485,704,Denied
+32,Female,Engineer,Bachelor's,Married,102761,783,Approved
+44,Male,Sales,High School,Single,71557,762,Denied
+37,Female,Nurse,Bachelor's,Single,68790,721,Approved
+52,Female,Manager,Bachelor's,Married,90829,708,Approved
+32,Female,Engineer,High School,Married,43605,655,Denied
+37,Female,Accountant,Associate's,Single,58907,736,Approved
+29,Male,Consultant,Bachelor's,Married,82252,714,Approved
+25,Male,Manager,Doctoral,Single,107296,768,Approved
+25,Female,IT,Doctoral,Married,93525,715,Approved
+46,Female,Teacher,High School,Single,94356,719,Approved
+24,Male,Designer,Master's,Married,78739,699,Approved
+53,Male,IT,Bachelor's,Married,113032,811,Approved
+24,Female,Chef,Bachelor's,Married,48876,633,Denied
+48,Male,Doctor,Master's,Single,119446,791,Approved
+50,Female,Teacher,Doctoral,Married,146666,807,Approved
+53,Male,Analyst,Doctoral,Married,118155,850,Denied
+40,Male,Pharmacist,Bachelor's,Single,112229,766,Approved
+42,Male,Marketing,Bachelor's,Married,104359,827,Approved
+26,Male,Analyst,Master's,Married,75042,762,Approved
+39,Female,Researcher,Associate's,Married,48965,678,Denied
+49,Male,Accountant,Bachelor's,Married,100713,734,Approved
+43,Male,IT,Bachelor's,Single,87800,662,Denied
+42,Female,Sales,Bachelor's,Married,90335,689,Approved
+27,Male,Student,Associate's,Single,50373,611,Denied
+22,Male,Chef,Associate's,Married,47593,709,Denied
+26,Female,Chef,Doctoral,Married,127709,785,Denied
+33,Male,Teacher,High School,Married,55021,697,Denied
+47,Female,Researcher,Bachelor's,Single,76755,646,Denied
+55,Female,Designer,Associate's,Single,109938,749,Approved
+35,Female,Pharmacist,High School,Married,74109,749,Approved
+47,Female,Banker,High School,Married,114780,804,Approved
+48,Male,Lawyer,Associate's,Married,62147,709,Denied
+30,Female,Banker,Master's,Married,90643,753,Approved
+47,Male,Nurse,Associate's,Married,46268,755,Approved
+43,Male,Accountant,Doctoral,Single,139797,815,Approved
+51,Male,Architect,Bachelor's,Single,90276,764,Approved
+38,Male,Accountant,Bachelor's,Single,107851,776,Approved
+47,Male,Researcher,Bachelor's,Single,80880,837,Approved
+57,Male,IT,Bachelor's,Married,82162,674,Denied
+22,Male,Manager,Master's,Married,67931,712,Denied
+29,Male,Nurse,Associate's,Married,20867,620,Denied
+56,Male,Lawyer,Bachelor's,Single,117266,832,Approved
+36,Male,Consultant,Master's,Single,65023,675,Approved
+43,Female,Doctor,Doctoral,Single,131926,810,Approved
+35,Female,IT,Master's,Single,63332,725,Denied
+47,Female,Lawyer,Bachelor's,Married,87695,850,Approved
+49,Male,Chef,Master's,Single,140150,850,Approved
+44,Female,Accountant,Bachelor's,Married,93409,722,Approved
+35,Female,Marketing,Bachelor's,Single,61547,677,Denied
+45,Female,Researcher,Associate's,Married,74031,710,Approved
+23,Male,Student,Bachelor's,Married,56770,597,Denied
+47,Male,Doctor,Associate's,Single,84589,734,Approved
+35,Male,Accountant,Bachelor's,Married,53997,712,Approved
+28,Male,Chef,Master's,Married,92888,680,Approved
+24,Female,Manager,Associate's,Married,20000,657,Denied
+44,Female,Nurse,High School,Single,53551,715,Approved
+39,Female,Pharmacist,High School,Married,48175,651,Approved
+59,Female,Researcher,Doctoral,Married,164999,850,Approved
+56,Male,Accountant,Bachelor's,Married,106339,850,Approved
+36,Male,Teacher,Bachelor's,Married,54916,715,Approved
+46,Male,Writer,Master's,Married,96225,763,Approved
+58,Female,Banker,Master's,Married,131980,825,Approved
+49,Male,Banker,Bachelor's,Married,94313,768,Approved
+31,Male,Student,Bachelor's,Married,59813,665,Denied
+38,Female,Chef,Master's,Married,91787,660,Approved
+43,Female,Banker,Bachelor's,Married,96942,841,Approved
+47,Male,Marketing,Associate's,Married,69734,731,Denied
+46,Male,Sales,Master's,Married,109678,799,Approved
+38,Male,Lawyer,Bachelor's,Single,111549,772,Approved
+34,Male,Accountant,Associate's,Married,36644,626,Denied
+41,Male,Banker,Bachelor's,Married,55722,687,Denied
+46,Male,Pharmacist,High School,Married,77753,671,Denied
+25,Female,Marketing,High School,Married,24320,715,Denied
+31,Female,Accountant,Master's,Single,83726,672,Approved
+24,Female,Student,High School,Married,21282,576,Denied
+39,Male,Engineer,Bachelor's,Single,76602,705,Approved
+57,Female,Writer,Bachelor's,Married,131478,850,Approved
+43,Male,Researcher,High School,Married,73531,725,Approved
+55,Male,Student,Doctoral,Married,162433,826,Approved
+29,Female,Architect,Associate's,Single,29256,687,Denied
+40,Male,Designer,Bachelor's,Married,64732,736,Denied
+58,Male,Marketing,Bachelor's,Single,66413,758,Denied
+27,Female,Engineer,Associate's,Single,35359,672,Denied
+47,Female,Student,High School,Single,81850,839,Approved
+55,Female,Lawyer,Master's,Single,132254,850,Approved
+27,Male,Accountant,Doctoral,Married,104177,719,Approved
+58,Female,Researcher,Associate's,Married,93665,842,Approved
+54,Female,Pharmacist,Bachelor's,Single,92666,785,Approved
+43,Male,Architect,Master's,Married,109571,798,Approved
+42,Female,Architect,Master's,Single,116488,720,Denied
+27,Female,Lawyer,Bachelor's,Married,38261,641,Denied
+27,Female,Architect,Bachelor's,Married,66994,658,Denied
+25,Male,Chef,Bachelor's,Married,73486,730,Denied
+51,Male,Designer,Master's,Married,112273,837,Approved
+32,Male,Doctor,Master's,Married,100510,665,Denied
+51,Male,Analyst,Associate's,Single,125719,814,Approved
+52,Female,Pharmacist,Bachelor's,Married,98434,820,Approved
+45,Male,Nurse,Doctoral,Single,140399,820,Approved
+30,Male,Researcher,Master's,Married,75929,738,Approved
+24,Female,IT,Doctoral,Married,105718,758,Approved
+52,Female,Writer,Master's,Married,126904,832,Denied
+58,Female,Manager,Bachelor's,Single,111922,794,Approved
+57,Male,Marketing,Bachelor's,Married,92204,725,Denied
+45,Male,Designer,Bachelor's,Single,92595,711,Approved
+52,Male,Student,High School,Married,96932,801,Denied
+27,Female,Marketing,Bachelor's,Single,69229,695,Denied
+23,Female,Lawyer,Master's,Single,90929,715,Approved
+41,Male,Student,Associate's,Married,64944,691,Approved
+49,Female,Marketing,Master's,Married,126748,801,Approved
+32,Female,Banker,Bachelor's,Single,74189,751,Approved
+25,Female,Banker,Doctoral,Single,90236,709,Approved
+36,Male,IT,High School,Married,55777,634,Denied
+27,Female,Manager,Associate's,Married,32624,669,Approved
+51,Female,Chef,Bachelor's,Married,89006,751,Approved
+59,Male,Banker,Associate's,Single,98339,787,Approved
+23,Male,Nurse,Master's,Single,80958,770,Approved
+36,Female,Nurse,Master's,Single,78161,720,Denied
+32,Female,Researcher,High School,Single,60809,700,Approved
+29,Male,Student,Bachelor's,Married,74080,657,Approved
+47,Male,IT,Bachelor's,Married,81929,734,Denied
+26,Female,Nurse,Bachelor's,Single,37936,670,Denied
+27,Female,Accountant,Doctoral,Single,105326,686,Approved
+47,Female,Lawyer,Master's,Single,105810,787,Approved
+25,Female,Accountant,Bachelor's,Married,61197,683,Denied
+40,Male,Doctor,Master's,Married,96553,756,Approved
+41,Female,Doctor,Bachelor's,Single,53388,733,Denied
+54,Female,Writer,Doctoral,Single,142174,850,Approved
+41,Male,Manager,Bachelor's,Married,78915,788,Approved
+33,Female,Engineer,Master's,Married,101004,711,Approved
+22,Male,Accountant,Master's,Married,64527,685,Approved
+47,Female,Lawyer,Associate's,Single,102680,777,Approved
+35,Female,Analyst,Master's,Single,65825,658,Denied
+59,Male,Chef,Associate's,Married,115167,849,Approved
+58,Male,Sales,Bachelor's,Single,105635,850,Approved
+32,Female,Researcher,Bachelor's,Single,82893,721,Approved
+57,Female,Accountant,Doctoral,Married,153697,850,Approved
+34,Female,Sales,Master's,Single,110093,769,Approved
+24,Male,IT,Master's,Married,72189,665,Approved
+54,Female,Doctor,Master's,Single,106520,717,Approved
+27,Male,Manager,Bachelor's,Single,83807,687,Denied
+31,Male,Chef,Doctoral,Married,111797,708,Approved
+26,Female,IT,Bachelor's,Single,64323,753,Approved
+44,Male,Pharmacist,Bachelor's,Married,106521,771,Approved
+31,Female,Pharmacist,Associate's,Married,38020,639,Approved
+23,Female,IT,Master's,Single,85432,748,Approved
+34,Female,Marketing,Master's,Married,84151,682,Approved
+23,Female,Lawyer,Bachelor's,Single,54517,635,Denied
+41,Female,Sales,High School,Married,59584,703,Denied
+22,Male,Analyst,Master's,Single,52496,702,Approved
+58,Male,Marketing,High School,Married,72317,765,Approved
+30,Female,Accountant,Master's,Single,107266,765,Approved
+38,Female,Designer,Doctoral,Married,137292,816,Approved
+30,Male,Researcher,Bachelor's,Married,66060,710,Denied
+32,Male,Writer,Associate's,Married,58646,694,Approved
+36,Male,Designer,Master's,Single,91586,700,Approved
+45,Male,Accountant,Master's,Single,129848,814,Approved
+59,Female,Writer,Bachelor's,Married,107494,756,Approved
+56,Female,Engineer,Doctoral,Married,154477,850,Approved
+51,Male,Doctor,High School,Single,90690,743,Denied
+52,Female,Lawyer,Bachelor's,Married,88339,850,Denied
+26,Male,Architect,Master's,Single,104381,743,Approved
+35,Female,Writer,Master's,Married,71543,653,Approved
+32,Male,Designer,Associate's,Single,79444,711,Approved
+30,Female,Researcher,Master's,Single,81409,737,Approved
+55,Male,Architect,Bachelor's,Married,100859,850,Approved
+33,Male,Pharmacist,Bachelor's,Single,43149,640,Denied
+56,Female,Doctor,High School,Married,74178,681,Denied
+56,Male,IT,Master's,Married,110402,832,Approved
+22,Female,Sales,Associate's,Single,30885,574,Denied
+43,Female,Chef,Bachelor's,Single,84440,723,Approved
+50,Male,Nurse,Associate's,Married,96366,759,Approved
+29,Female,Writer,Master's,Single,88614,723,Denied
+32,Female,Nurse,Bachelor's,Married,74615,737,Approved
+58,Female,Manager,Master's,Married,112567,778,Approved
+35,Female,Nurse,Associate's,Married,46288,660,Denied
+51,Female,Student,Bachelor's,Single,125480,814,Approved
+56,Male,Banker,Bachelor's,Single,94971,782,Approved
+42,Female,Banker,Master's,Single,129843,811,Approved
+58,Female,Sales,Doctoral,Single,150354,850,Approved
+26,Female,Analyst,High School,Married,36034,676,Denied
+40,Female,Engineer,Bachelor's,Married,98055,772,Approved
+35,Female,Writer,High School,Single,68578,723,Approved
+47,Male,Accountant,Bachelor's,Single,90837,693,Denied
+25,Female,IT,Associate's,Single,38676,647,Denied
+46,Male,Doctor,Bachelor's,Married,90161,773,Approved
+46,Male,Engineer,Bachelor's,Single,96069,792,Approved
+39,Male,Student,Bachelor's,Married,93869,721,Approved
+29,Male,Teacher,Bachelor's,Single,65563,665,Denied
+35,Female,Designer,Master's,Married,103783,735,Approved
+53,Male,Analyst,Bachelor's,Married,126075,840,Approved
+59,Male,Doctor,High School,Single,91219,816,Approved
+54,Female,Student,Master's,Single,127674,806,Approved
+44,Female,Student,Associate's,Married,50216,727,Approved
+36,Female,Teacher,Bachelor's,Single,36539,663,Approved
+54,Male,Lawyer,Bachelor's,Married,108825,789,Approved
+46,Female,Chef,Bachelor's,Married,89577,744,Approved
+38,Female,Lawyer,High School,Married,46278,706,Approved
+54,Male,Teacher,Bachelor's,Married,106652,804,Approved
+23,Female,Engineer,Doctoral,Single,100593,826,Approved
+35,Female,IT,Bachelor's,Single,91416,705,Approved
+27,Female,Nurse,Bachelor's,Married,63791,706,Approved
+27,Female,Teacher,Bachelor's,Single,51296,646,Denied
+24,Male,Pharmacist,Associate's,Married,57852,638,Denied
+28,Female,Teacher,Bachelor's,Single,60743,682,Denied
+29,Female,IT,Master's,Single,93398,739,Approved
+36,Male,Teacher,High School,Married,43838,786,Approved
+50,Female,Pharmacist,Associate's,Single,72252,726,Denied
+54,Male,Pharmacist,Associate's,Married,89262,719,Approved
+51,Female,Banker,Bachelor's,Married,98692,785,Approved
+48,Male,Doctor,Doctoral,Married,146197,758,Approved
+57,Male,Sales,High School,Married,78470,749,Approved
+50,Male,Architect,Bachelor's,Married,69454,729,Denied
+59,Male,Consultant,Associate's,Married,89008,803,Approved
+54,Female,Lawyer,Doctoral,Single,159907,850,Approved
+58,Male,IT,High School,Married,79539,736,Denied
+48,Female,Manager,Bachelor's,Married,90304,751,Approved
+54,Male,Banker,Master's,Married,137795,807,Approved
+25,Male,Student,Master's,Married,68820,645,Denied
+43,Male,Doctor,Bachelor's,Single,63357,721,Approved
+23,Female,Researcher,Bachelor's,Married,54090,614,Denied
+31,Male,Accountant,Bachelor's,Married,61237,671,Denied
+26,Female,Chef,Associate's,Single,31506,596,Denied
+31,Female,Researcher,Associate's,Married,50869,694,Denied
+54,Female,Architect,Bachelor's,Married,110372,850,Approved
+59,Female,Consultant,Associate's,Married,95360,729,Approved
+34,Female,Architect,Associate's,Married,62604,620,Denied
+52,Female,Researcher,Bachelor's,Married,127201,813,Approved
+57,Female,Chef,Doctoral,Single,147356,850,Approved
+45,Female,Analyst,Bachelor's,Married,93675,766,Approved
+36,Female,Consultant,High School,Single,43361,651,Approved
+50,Male,Student,High School,Married,59304,705,Approved
+29,Male,Teacher,Doctoral,Married,101726,760,Approved
+26,Male,Manager,Associate's,Single,38818,688,Denied
+50,Male,Consultant,High School,Single,77392,662,Approved
+25,Male,Sales,Bachelor's,Married,94736,714,Approved
+33,Female,Engineer,Bachelor's,Single,60759,699,Denied
+23,Female,IT,Bachelor's,Married,50250,623,Denied
+48,Female,Researcher,Associate's,Single,78053,808,Approved
+52,Female,Manager,High School,Single,80936,723,Approved
+57,Female,Lawyer,Doctoral,Married,156453,850,Approved
+57,Female,Doctor,Associate's,Married,111761,825,Approved
+47,Female,Researcher,Bachelor's,Married,56104,681,Denied
+48,Male,Writer,Master's,Single,78196,665,Approved
+26,Male,Designer,Bachelor's,Married,53561,652,Denied
+41,Male,Banker,Bachelor's,Married,99959,802,Approved
+32,Male,Nurse,Associate's,Married,31515,631,Denied
+31,Female,Banker,Bachelor's,Married,23385,597,Denied
+59,Female,Designer,Master's,Married,139067,850,Approved
+27,Female,Sales,Doctoral,Married,111154,744,Approved
+29,Male,IT,High School,Single,24146,609,Denied
+44,Female,Consultant,Associate's,Married,58216,709,Approved
+47,Female,Analyst,Doctoral,Single,122953,835,Approved
+33,Female,Accountant,Master's,Married,93158,834,Approved
+47,Male,Nurse,Master's,Single,103105,808,Denied
+34,Female,Consultant,Associate's,Married,65410,745,Approved
+39,Male,Analyst,Bachelor's,Married,37680,644,Denied
+46,Male,Architect,Master's,Single,98147,725,Denied
+54,Male,Architect,Bachelor's,Single,86109,762,Approved
+33,Male,Pharmacist,Bachelor's,Single,67654,705,Approved
+57,Female,Chef,High School,Married,74429,704,Approved
+25,Male,Consultant,Bachelor's,Married,71467,687,Denied
+26,Male,Writer,Associate's,Single,20000,634,Denied
+58,Female,IT,Bachelor's,Married,109682,815,Approved
+29,Female,Researcher,Doctoral,Single,118875,791,Approved
+49,Male,Lawyer,Bachelor's,Married,123349,820,Approved
+52,Female,Sales,Master's,Married,112773,776,Approved
+30,Male,Teacher,Associate's,Single,56866,659,Denied
+50,Male,Doctor,Bachelor's,Married,69942,681,Approved
+35,Male,Pharmacist,Doctoral,Single,83620,799,Approved
+43,Male,Manager,High School,Single,74171,726,Approved
+32,Female,Marketing,High School,Single,44916,656,Denied
+44,Male,Manager,Bachelor's,Single,105677,737,Denied
+22,Female,Writer,High School,Married,20000,730,Denied
+58,Female,Designer,Master's,Married,136798,799,Approved
+42,Female,Consultant,Doctoral,Married,158032,832,Approved
+47,Female,Lawyer,Bachelor's,Single,98795,785,Approved
+57,Male,Engineer,Associate's,Single,96648,804,Approved
+44,Female,Engineer,Bachelor's,Married,88128,786,Approved
+22,Male,Consultant,Master's,Married,51436,732,Approved
+36,Female,Nurse,High School,Single,71333,731,Approved
+42,Female,Pharmacist,Bachelor's,Married,75837,684,Approved
+30,Male,Designer,Bachelor's,Married,74567,696,Denied
+30,Male,Nurse,Bachelor's,Married,43554,672,Denied
+31,Male,Accountant,Associate's,Married,35808,732,Denied
+47,Female,Lawyer,Master's,Single,134026,765,Approved
+56,Female,Chef,High School,Single,75790,795,Approved
+46,Male,Banker,Associate's,Married,97799,772,Approved
+47,Male,Analyst,Master's,Single,111326,821,Approved
+32,Male,Sales,Master's,Married,62371,687,Denied
+59,Male,Designer,High School,Married,98881,753,Approved
+23,Female,Chef,Associate's,Single,32651,663,Denied
+28,Male,Pharmacist,Associate's,Married,59480,707,Denied
+39,Male,Engineer,Associate's,Single,65878,746,Approved
+48,Male,Marketing,Associate's,Married,55853,705,Approved
+55,Male,Marketing,High School,Married,81964,731,Approved
+48,Female,Teacher,Bachelor's,Married,126943,750,Denied
+38,Male,Accountant,Master's,Married,106394,799,Approved
+45,Female,Lawyer,Bachelor's,Married,88637,767,Approved
+46,Male,Nurse,Bachelor's,Married,107130,741,Approved
+28,Male,Manager,High School,Married,42160,633,Denied
+27,Female,Engineer,Doctoral,Single,110643,737,Approved
+45,Male,Accountant,Master's,Single,93125,697,Denied
+54,Female,Researcher,Master's,Single,126507,788,Approved
+50,Female,Teacher,Master's,Single,132531,778,Approved
+43,Male,Nurse,Doctoral,Married,118959,776,Approved
+47,Female,Manager,Bachelor's,Married,113867,761,Approved
+49,Female,Analyst,Associate's,Married,79124,677,Denied
+42,Female,Researcher,Bachelor's,Single,71683,801,Approved
+28,Female,Lawyer,Master's,Married,98964,790,Approved
+38,Female,Writer,Master's,Single,94698,717,Approved
+41,Female,Lawyer,Bachelor's,Married,94892,764,Approved
+41,Female,Banker,High School,Married,54123,709,Denied
+43,Female,Sales,Bachelor's,Single,85602,790,Approved
+49,Male,Designer,Doctoral,Single,147903,812,Approved
+28,Male,Teacher,Bachelor's,Single,68363,738,Denied
+22,Female,Architect,Bachelor's,Married,25067,598,Denied
+53,Male,Sales,Associate's,Married,69681,680,Denied
+34,Female,Sales,Bachelor's,Married,86941,760,Denied
+51,Female,Analyst,Master's,Single,116517,850,Approved
+44,Male,Teacher,Bachelor's,Married,80144,839,Denied
+40,Female,Manager,Master's,Married,81621,684,Approved
+53,Female,Sales,Bachelor's,Married,85303,785,Approved

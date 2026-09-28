@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Result: {{ prediction.prediction_result }} - LoanWise{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center fade-in">
+    <div class="col-lg-8">
+        <!-- Main Result Card -->
+        <div class="card shadow-lg result-card {% if prediction.prediction_result == 'APPROVED' %}result-approved{% else %}result-denied{% endif %}">
+            <div class="card-body py-5">
+                {% if prediction.prediction_result == 'APPROVED' %}
+                    <div class="result-icon approved">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h1 class="display-5 fw-bold text-success mb-2">Approved</h1>
+                    <p class="text-muted">Great news! Your loan application is likely to be approved.</p>
+                {% else %}
+                    <div class="result-icon denied">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <h1 class="display-5 fw-bold text-danger mb-2">Denied</h1>
+                    <p class="text-muted">Your application may not be approved at this time.</p>
+                {% endif %}
+                
+                <!-- Confidence Score -->
+                <div class="confidence-score">
+                    <h5>Confidence</h5>
+                    <div class="progress" style="height: 24px;">
+                        <div class="progress-bar {% if prediction.prediction_result == 'APPROVED' %}bg-success{% else %}bg-danger{% endif %}" 
+                             style="width: {{ prediction.confidence }}%;">
+                            {{ prediction.confidence|floatformat:1 }}%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Probability Cards -->
+        <div class="row mt-4 g-3">
+            <div class="col-md-6">
+                <div class="card h-100 border-success">
+                    <div class="card-body text-center py-4">
+                        <i class="fas fa-thumbs-up fa-2x text-success mb-3"></i>
+                        <h6 class="text-muted mb-2">Approval Probability</h6>
+                        <h2 class="text-success mb-3">{{ prediction.approval_probability|floatformat:1 }}%</h2>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-success" style="width: {{ prediction.approval_probability }}%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 border-danger">
+                    <div class="card-body text-center py-4">
+                        <i class="fas fa-thumbs-down fa-2x text-danger mb-3"></i>
+                        <h6 class="text-muted mb-2">Denial Probability</h6>
+                        <h2 class="text-danger mb-3">{{ prediction.denial_probability|floatformat:1 }}%</h2>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-danger" style="width: {{ prediction.denial_probability }}%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Application Details -->
+        <div class="card mt-4">
+            <div class="card-header bg-light">
+                <h5 class="mb-0">
+                    <i class="fas fa-user me-2 text-primary"></i>Application Details
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-borderless mb-0">
+                            <tr>
+                                <td class="text-muted">Age</td>
+                                <td class="text-end fw-medium">{{ prediction.age }} years</td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">Gender</td>
+                                <td class="text-end fw-medium">{{ prediction.gender }}</td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">Marital Status</td>
+                                <td class="text-end fw-medium">{{ prediction.marital_status }}</td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">Education</td>
+                                <td class="text-end fw-medium">{{ prediction.education_level }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-borderless mb-0">
+                            <tr>
+                                <td class="text-muted">Occupation</td>
+                                <td class="text-end fw-medium">{{ prediction.occupation }}</td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">Annual Income</td>
+                                <td class="text-end fw-medium">${{ prediction.income|floatformat:0 }}</td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">Credit Score</td>
+                                <td class="text-end">
+                                    <span class="badge {% if prediction.credit_score >= 740 %}bg-success{% elif prediction.credit_score >= 670 %}bg-info{% elif prediction.credit_score >= 580 %}bg-warning{% else %}bg-danger{% endif %}">
+                                        {{ prediction.credit_score }}
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">Date</td>
+                                <td class="text-end fw-medium">{{ prediction.created_at|date:"M d, Y" }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Recommendations -->
+        <div class="card mt-4">
+            <div class="card-header bg-primary">
+                <h5 class="mb-0 text-white">
+                    <i class="fas fa-lightbulb me-2"></i>Recommendations
+                </h5>
+            </div>
+            <div class="card-body">
+                {% if prediction.prediction_result == 'APPROVED' %}
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-check text-success me-2"></i>Your profile looks strong. Proceed with confidence!</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Shop around for the best interest rates</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Have all documents ready for final application</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Maintain your credit score until disbursement</li>
+                    </ul>
+                {% else %}
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-arrow-up text-warning me-2"></i>Improve your credit score - aim for 700+</li>
+                        <li><i class="fas fa-arrow-up text-warning me-2"></i>Reduce existing debt before reapplying</li>
+                        <li><i class="fas fa-arrow-up text-warning me-2"></i>Increase income or consider a co-signer</li>
+                        <li><i class="fas fa-arrow-up text-warning me-2"></i>Wait 3-6 months and reapply after improvements</li>
+                    </ul>
+                {% endif %}
+            </div>
+        </div>
+        
+        <!-- Action Buttons -->
+        <div class="d-flex gap-3 justify-content-center mt-4">
+            <a href="{% url 'apply' %}" class="btn btn-primary">
+                <i class="fas fa-plus me-1"></i>New Application
+            </a>
+            <a href="{% url 'prediction_history' %}" class="btn btn-outline-secondary">
+                <i class="fas fa-clock me-1"></i>View History
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

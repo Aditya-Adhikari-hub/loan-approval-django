@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Sign In - LoanWise{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-5 col-lg-4">
+        <div class="card auth-card">
+            <div class="card-header">
+                <i class="fas fa-fingerprint fa-3x mb-3"></i>
+                <h3 class="mb-1">Welcome back</h3>
+                <p class="mb-0 opacity-75">Sign in to your account</p>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    
+                    <div class="mb-3">
+                        <label for="id_username" class="form-label">Username</label>
+                        <input type="text" name="username" id="id_username" 
+                               class="form-control" placeholder="Enter username" required autofocus>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="id_password" class="form-label">Password</label>
+                        <div class="input-group">
+                            <input type="password" name="password" id="id_password" 
+                                   class="form-control" placeholder="Enter password" required>
+                            <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                                <i class="fas fa-eye" id="toggleIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            Sign in
+                        </button>
+                    </div>
+                </form>
+                
+                <hr class="my-4">
+                
+                <p class="text-center text-muted mb-0">
+                    Don't have an account? <a href="{% url 'signup' %}" class="fw-medium">Sign up</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.getElementById('togglePassword').addEventListener('click', function() {
+        const password = document.getElementById('id_password');
+        const icon = document.getElementById('toggleIcon');
+        
+        if (password.type === 'password') {
+            password.type = 'text';
+            icon.classList.replace('fa-eye', 'fa-eye-slash');
+        } else {
+            password.type = 'password';
+            icon.classList.replace('fa-eye-slash', 'fa-eye');
+        }
+    });
+</script>
+{% endblock %}

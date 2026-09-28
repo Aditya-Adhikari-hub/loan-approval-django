@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}LoanWise - Smart Loan Approval Prediction{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="hero-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h1>Know your loan eligibility in seconds</h1>
+                <p class="lead">
+                    Our AI-powered system analyzes your profile and provides instant predictions. 
+                    No credit checks, no commitments.
+                </p>
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <a href="{% url 'apply' %}" class="btn btn-primary btn-lg">
+                        <i class="fas fa-arrow-right me-2"></i>Check eligibility
+                    </a>
+                    {% if not user.is_authenticated %}
+                    <a href="{% url 'signup' %}" class="btn btn-outline-primary btn-lg">
+                        Create account
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section">
+    <div class="container">
+        <div class="row text-center text-white">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <div class="stat-item">
+                    <i class="fas fa-users fa-2x mb-2"></i>
+                    <h2>10,000+</h2>
+                    <p class="mb-0">Predictions made</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+                <div class="stat-item">
+                    <i class="fas fa-bullseye fa-2x mb-2"></i>
+                    <h2>95%</h2>
+                    <p class="mb-0">Accuracy rate</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat-item">
+                    <i class="fas fa-bolt fa-2x mb-2"></i>
+                    <h2>&lt;5 sec</h2>
+                    <p class="mb-0">Response time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>Why use LoanWise?</h2>
+            <p class="text-muted">Simple, fast, and accurate loan predictions</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-card card h-100">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain text-primary"></i>
+                    </div>
+                    <h4>AI-Powered</h4>
+                    <p>Machine learning model trained on real lending data for accurate predictions.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card card h-100">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt text-success"></i>
+                    </div>
+                    <h4>Private & Secure</h4>
+                    <p>Your data is encrypted and never shared. We prioritize your privacy.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card card h-100">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock text-warning"></i>
+                    </div>
+                    <h4>Instant Results</h4>
+                    <p>Get your prediction in seconds. No waiting, no paperwork required.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>How it works</h2>
+            <p class="text-muted">Three simple steps to your prediction</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4 text-center">
+                <div class="step-number">1</div>
+                <h5>Create account</h5>
+                <p class="text-muted small">Sign up free to track your predictions</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="step-number">2</div>
+                <h5>Fill the form</h5>
+                <p class="text-muted small">Enter your basic information</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="step-number">3</div>
+                <h5>Get results</h5>
+                <p class="text-muted small">Instant prediction with confidence score</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container text-center">
+        <h2>Ready to check your eligibility?</h2>
+        <p class="mb-4">Join thousands of users who trust LoanWise</p>
+        <a href="{% url 'apply' %}" class="btn btn-light btn-lg">
+            Get started now
+        </a>
+    </div>
+</section>
+{% endblock %}

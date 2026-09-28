@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Apply for Loan - LoanWise{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-7 col-xl-6">
+        <div class="card shadow-lg">
+            <div class="card-header bg-primary">
+                <h3 class="mb-1">
+                    <i class="fas fa-file-alt me-2"></i>Loan Application
+                </h3>
+                <p class="mb-0 opacity-75 small">Fill in your details to check eligibility</p>
+            </div>
+            <div class="card-body p-4">
+                <form method="post" id="loanForm">
+                    {% csrf_token %}
+                    
+                    <!-- Personal Information -->
+                    <div class="section-title">
+                        <i class="fas fa-user"></i>Personal Information
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="id_age" class="form-label">Age</label>
+                            {{ form.age }}
+                            {% if form.age.errors %}
+                                <div class="text-danger small mt-1">{{ form.age.errors.0 }}</div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="id_gender" class="form-label">Gender</label>
+                            {{ form.gender }}
+                            {% if form.gender.errors %}
+                                <div class="text-danger small mt-1">{{ form.gender.errors.0 }}</div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="id_marital_status" class="form-label">Marital Status</label>
+                            {{ form.marital_status }}
+                            {% if form.marital_status.errors %}
+                                <div class="text-danger small mt-1">{{ form.marital_status.errors.0 }}</div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="id_education_level" class="form-label">Education</label>
+                            {{ form.education_level }}
+                            {% if form.education_level.errors %}
+                                <div class="text-danger small mt-1">{{ form.education_level.errors.0 }}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <!-- Professional Information -->
+                    <div class="section-title mt-4">
+                        <i class="fas fa-briefcase"></i>Professional Information
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="id_occupation" class="form-label">Occupation</label>
+                            {{ form.occupation }}
+                            {% if form.occupation.errors %}
+                                <div class="text-danger small mt-1">{{ form.occupation.errors.0 }}</div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="id_income" class="form-label">Annual Income (USD)</label>
+                            {{ form.income }}
+                            {% if form.income.errors %}
+                                <div class="text-danger small mt-1">{{ form.income.errors.0 }}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <!-- Financial Information -->
+                    <div class="section-title mt-4">
+                        <i class="fas fa-chart-bar"></i>Financial Information
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 mb-3">
+                            <label for="id_credit_score" class="form-label">Credit Score (300-850)</label>
+                            {{ form.credit_score }}
+                            {% if form.credit_score.errors %}
+                                <div class="text-danger small mt-1">{{ form.credit_score.errors.0 }}</div>
+                            {% endif %}
+                            <div class="mt-2 d-flex gap-2 flex-wrap">
+                                <span class="badge bg-danger">300-579 Poor</span>
+                                <span class="badge bg-warning">580-669 Fair</span>
+                                <span class="badge bg-info">670-739 Good</span>
+                                <span class="badge bg-success">740-850 Excellent</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="d-flex gap-2 justify-content-end">
+                        <button type="reset" class="btn btn-outline-secondary">
+                            <i class="fas fa-undo me-1"></i>Reset
+                        </button>
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-paper-plane me-1"></i>Check Eligibility
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Quick Info -->
+        <div class="row mt-4 g-3">
+            <div class="col-4">
+                <div class="card info-card text-center p-3">
+                    <i class="fas fa-bolt fa-lg text-primary mb-2"></i>
+                    <small class="text-muted">Instant results</small>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card info-card text-center p-3">
+                    <i class="fas fa-lock fa-lg text-success mb-2"></i>
+                    <small class="text-muted">100% secure</small>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card info-card text-center p-3">
+                    <i class="fas fa-redo fa-lg text-warning mb-2"></i>
+                    <small class="text-muted">Try again anytime</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
