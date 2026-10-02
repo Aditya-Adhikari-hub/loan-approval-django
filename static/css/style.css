@@ -1,18 +1,18 @@
-/* LoanWise - Modern Clean Design System */
+/* Loanly - Modern Dark Design System */
 
 /* ===== CSS Variables ===== */
 :root {
-    /* Primary Colors - Modern Blue */
-    --primary-50: #eff6ff;
-    --primary-100: #dbeafe;
-    --primary-200: #bfdbfe;
-    --primary-300: #93c5fd;
-    --primary-400: #60a5fa;
-    --primary-500: #3b82f6;
-    --primary-600: #2563eb;
-    --primary-700: #1d4ed8;
-    --primary-800: #1e40af;
-    --primary-900: #1e3a8a;
+    /* Primary Colors - Loanly Emerald */
+    --primary-50: #ecfdf5;
+    --primary-100: #d1fae5;
+    --primary-200: #a7f3d0;
+    --primary-300: #6ee7b7;
+    --primary-400: #34d399;
+    --primary-500: #10b981;
+    --primary-600: #059669;
+    --primary-700: #047857;
+    --primary-800: #065f46;
+    --primary-900: #064e3b;
     
     /* Success Colors - Green */
     --success-50: #f0fdf4;
@@ -54,7 +54,7 @@
     --text-secondary: #4b5563;
     --text-muted: #6b7280;
     --border-color: #e5e7eb;
-    --navbar-bg: #1e3a8a;
+    --navbar-bg: #064e3b;
     --navbar-text: #ffffff;
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -70,15 +70,15 @@
 
 /* ===== Dark Mode ===== */
 [data-theme="dark"] {
-    --bg-body: #0f172a;
-    --bg-card: #1e293b;
-    --bg-elevated: #334155;
-    --text-primary: #f1f5f9;
-    --text-secondary: #cbd5e1;
-    --text-muted: #94a3b8;
-    --border-color: #334155;
-    --navbar-bg: #0f172a;
-    --navbar-text: #f1f5f9;
+    --bg-body: #08110d;
+    --bg-card: #0f1e17;
+    --bg-elevated: #16281f;
+    --text-primary: #ecfdf5;
+    --text-secondary: #a7d9c4;
+    --text-muted: #6b9080;
+    --border-color: #1c3327;
+    --navbar-bg: #08110d;
+    --navbar-text: #ecfdf5;
 }
 
 /* ===== Base Styles ===== */
@@ -104,6 +104,7 @@ main { flex: 1; padding: 2rem 0; }
 /* ===== Typography ===== */
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-primary);
+    font-family: 'Sora', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-weight: 600;
     line-height: 1.4;
     letter-spacing: -0.02em;
@@ -129,6 +130,7 @@ h5 { font-size: 1.125rem; }
 }
 
 .navbar-brand {
+    font-family: 'Sora', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     color: #ffffff !important;
@@ -138,7 +140,7 @@ h5 { font-size: 1.125rem; }
     letter-spacing: -0.02em;
 }
 
-.navbar-brand i { color: #93c5fd; font-size: 1.5rem; }
+.navbar-brand i { color: var(--primary-300); font-size: 1.5rem; }
 
 .nav-link {
     font-weight: 500;
@@ -158,15 +160,15 @@ h5 { font-size: 1.125rem; }
 [data-theme="dark"] .nav-link:hover { background: rgba(255, 255, 255, 0.1); }
 
 .nav-link.btn-outline-light {
-    border: 1.5px solid #93c5fd !important;
-    color: #93c5fd !important;
+    border: 1.5px solid var(--primary-300) !important;
+    color: var(--primary-300) !important;
     background: transparent;
     font-weight: 600;
 }
 
 .nav-link.btn-outline-light:hover {
-    background: #93c5fd !important;
-    color: #1e3a8a !important;
+    background: var(--primary-300) !important;
+    color: var(--primary-900) !important;
 }
 
 .dropdown-menu {
@@ -405,7 +407,7 @@ h5 { font-size: 1.125rem; }
 
 /* ===== Stats Section ===== */
 .stats-section {
-    background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+    background: linear-gradient(135deg, var(--primary-700) 0%, var(--primary-900) 100%);
     border-radius: 0;
     margin: 0;
     padding: 3.5rem 2rem;
@@ -413,7 +415,7 @@ h5 { font-size: 1.125rem; }
 
 .stat-item { text-align: center; }
 
-.stat-item i { color: #93c5fd; }
+.stat-item i { color: var(--primary-200); }
 
 .stat-item h2 {
     color: #ffffff;
@@ -423,7 +425,7 @@ h5 { font-size: 1.125rem; }
 }
 
 .stat-item p {
-    color: #bfdbfe;
+    color: var(--primary-100);
     font-size: 1rem;
     font-weight: 500;
 }
@@ -773,7 +775,7 @@ a:hover { color: var(--primary-700); }
 
 /* ===== CTA Section ===== */
 .cta-section {
-    background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+    background: linear-gradient(135deg, var(--primary-700) 0%, var(--primary-900) 100%);
     padding: 4rem 2rem;
     margin-top: 2rem;
 }
@@ -786,23 +788,19 @@ a:hover { color: var(--primary-700); }
 }
 
 .cta-section p {
-    color: #bfdbfe;
+    color: var(--primary-100);
     font-size: 1.125rem;
 }
 
 .cta-section .btn-light {
     background: #ffffff;
-    color: #1e3a8a;
+    color: var(--primary-900);
     border: none;
     font-weight: 600;
 }
 
 .cta-section .btn-light:hover {
     background: #f0f9ff;
-    color: #1e40af;
+    color: var(--primary-700);
 }
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.75rem;
-}
+

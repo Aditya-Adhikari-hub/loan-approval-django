@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}Apply for Loan - LoanWise{% endblock %}
+{% block title %}Apply for Loan - Loanly{% endblock %}
 
 {% block content %}
 <div class="row justify-content-center">
@@ -28,14 +28,6 @@
                             {{ form.age }}
                             {% if form.age.errors %}
                                 <div class="text-danger small mt-1">{{ form.age.errors.0 }}</div>
-                            {% endif %}
-                        </div>
-                        
-                        <div class="col-md-6 mb-3">
-                            <label for="id_gender" class="form-label">Gender</label>
-                            {{ form.gender }}
-                            {% if form.gender.errors %}
-                                <div class="text-danger small mt-1">{{ form.gender.errors.0 }}</div>
                             {% endif %}
                         </div>
                         
